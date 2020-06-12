@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="run test" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="lightweb" />
+    <working_directory value="$PROJECT_DIR$/" />
+    <go_parameters value="-i" />
+    <kind value="PACKAGE" />
+    <package value="lightweb/cmd/test" />
+    <output_directory value="$PROJECT_DIR$/bin/test" />
+    <method v="2" />
+  </configuration>
+</component>

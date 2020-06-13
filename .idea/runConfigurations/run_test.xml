@@ -2,8 +2,8 @@
   <configuration default="false" name="run test" type="GoApplicationRunConfiguration" factoryName="Go Application">
     <module name="lightweb" />
     <working_directory value="$PROJECT_DIR$/" />
-    <go_parameters value="-i" />
     <kind value="PACKAGE" />
+    <filePath value="$PROJECT_DIR$/bin/test/run_test|$PROJECT_DIR$/cmd/test/main.go" />
     <package value="lightweb/cmd/test" />
     <output_directory value="$PROJECT_DIR$/bin/test" />
     <method v="2" />

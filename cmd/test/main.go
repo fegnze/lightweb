@@ -7,11 +7,11 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello Kingdom!")
+	fmt.Println("---- Hello Kingdom! ************")
 
 	app := iris.New()
 	app.Get("/", func(ctx context.Context) {
-		ctx.WriteString("Hello ********")
+		_, _ = ctx.WriteString("Hello Kingdom! ********")
 	})
-	app.Run(iris.Addr(":8080"))
+	_ = app.Run(iris.Addr(":8080"))
 }
